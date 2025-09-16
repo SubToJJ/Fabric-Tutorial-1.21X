@@ -1,26 +1,26 @@
 {
   "schemaVersion": 1,
-  "id": "tutorialmod",
+  "id": "threatscope",
   "version": "${version}",
-  "name": "Tutorial Mod",
+  "name": "ThreatScope",
   "description": "ThreatScope HUD overlay mod by urJJ",
   "authors": [
     "urJJ"
   ],
   "contact": {
     "homepage": "https://urjj.net/",
-    "sources": "https://github.com/SubToJJ/Fabric-Tutorial-1.21.X"
+    "sources": "https://github.com/SubToJJ/ThreatScope"
   },
   "license": "MIT",
-  "icon": "assets/tutorialmod/icon.png",
+  "icon": "assets/threatscope/icon.png",
   "environment": "*",
   "entrypoints": {
     "client": [
-      "net.urjj.tutorialmod.ThreatScopeClient"
+      "net.urjj.threatscope.ThreatScopeClient"
     ]
   },
   "mixins": [
-    "tutorialmod.mixins.json"
+    "threatscope.mixins.json"
   ],
   "depends": {
     "fabricloader": ">=0.15.7",

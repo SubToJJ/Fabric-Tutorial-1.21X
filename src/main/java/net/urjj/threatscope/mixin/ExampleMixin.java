@@ -1,4 +1,4 @@
-package net.urjj.tutorialmod.mixin;
+package net.urjj.threatscope.mixin;
 
 import net.minecraft.server.MinecraftServer;
 import org.spongepowered.asm.mixin.Mixin;

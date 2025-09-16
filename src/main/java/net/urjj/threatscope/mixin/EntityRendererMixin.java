@@ -1,4 +1,4 @@
-package net.urjj.tutorialmod.mixin;
+package net.urjj.threatscope.mixin;
 
 import net.minecraft.client.render.entity.EntityRenderer;
 import net.minecraft.entity.Entity;
