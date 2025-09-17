@@ -4,9 +4,7 @@
   "version": "${version}",
   "name": "ThreatScope",
   "description": "ThreatScope HUD overlay mod by urJJ",
-  "authors": [
-    "urJJ"
-  ],
+  "authors": ["urJJ"],
   "contact": {
     "homepage": "https://urjj.net/",
     "sources": "https://github.com/SubToJJ/ThreatScope"
@@ -30,5 +28,14 @@
   },
   "suggests": {
     "another-mod": "*"
-  }
+  },
+  "custom": {
+    "features": [
+      "ThreatScope HUD Overlay (/scope)",
+      "Radar HUD Map (/scopemap)"
+    ]
+  },
+  "keywords": [
+    "hud", "overlay", "radar", "pvp", "threat", "scope", "client-side"
+  ]
 }
